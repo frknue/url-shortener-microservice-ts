@@ -1,0 +1,35 @@
+{
+    "name": "url-shortener-microservice-ts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "ts-node src/index.ts",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/frknue/url-shortener-microservice-ts.git"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.13",
+        "@types/express": "^4.17.15",
+        "@types/node": "^18.11.18",
+        "typescript": "^4.9.4"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "mongodb": "^4.13.0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/frknue/url-shortener-microservice-ts/issues"
+    },
+    "homepage": "https://github.com/frknue/url-shortener-microservice-ts#readme"
+}
